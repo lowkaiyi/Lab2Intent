@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                                     int resultCode,
                                     Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == REQUEST_REPLY_CODE && requestCode == RESULT_OK){
+        if(requestCode == REQUEST_REPLY_CODE && resultCode == RESULT_OK){
 
                 TextView textViewReply;
                 textViewReply = findViewById(R.id.textViewReply);
